@@ -1,0 +1,36 @@
+
+ul {
+  background: darkslategrey;
+  color: white;
+  align-items:left;
+}
+
+li:hover {
+  font-size: calc(10px + 1vmin);
+  background-color: lightgreen;
+  color:black;
+}
+li{
+  list-style-type: none;
+  text-align:right;
+}
+label{
+  display: block;
+}
+button{
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 10px 28px;
+  text-align: right;
+  text-decoration: none;
+  display: inline;
+  font-size: calc(10px + 1vmin);
+  margin: 0px;
+}
+button:hover{
+  background-color: rgb(197, 238, 198); 
+  border: 3px solid black;
+  color: black;
+
+}
